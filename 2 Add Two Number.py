@@ -21,7 +21,7 @@ class Solution:
         :type l2: ListNode
         :rtype: ListNode
         """
-    
+########################################################################################################
         root = ListNode(0) #root data, return ListNode(), we can initial with any value
         result = root #root need be moved?
         carry = 0 #carry
@@ -44,6 +44,7 @@ class Solution:
             carry = value // 10 #equates to int(value/10)
             root = root.next
         return result.next
+########################################################################################################
 
 class ListNode(object):
     def __init__(self, x):    
