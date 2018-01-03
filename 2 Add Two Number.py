@@ -1,3 +1,8 @@
+#在python中，一边循环一边计算的机制，称为生成器（Generator）——>节省内存
+
+
+
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):#__init__ is the constructor for a class. 
