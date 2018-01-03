@@ -1,4 +1,4 @@
-#在python中，一边循环一边计算的机制，称为生成器（Generator）——>节省内存，可用while或者def
+#在python中，一边循环一边计算的机制，称为生成器（Generator）——>节省内存，可用while或者def+yield
 
 
 
