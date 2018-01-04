@@ -23,7 +23,7 @@ class Solution:
         :rtype: ListNode
         """
 ########################################################################################################
-        root = ListNode(0) #root data, return ListNode(), we can initial with any value
+        root = ListNode(0) #dummy node.插在链表前，作用是更新了链表后直接返回.next就是全新的链表。root data, return ListNode(), we can initial with any value
         result = root #root need be moved?
         carry = 0 #carry
 
@@ -44,7 +44,7 @@ class Solution:
             print("root={0}".format(root))
             carry = value // 10 #equates to int(value/10)
             root = root.next
-        return result.next
+        return result.next #返回dummy node
 ########################################################################################################
 
 class ListNode(object):
