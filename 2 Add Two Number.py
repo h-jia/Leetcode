@@ -1,6 +1,6 @@
 #在python中，一边循环一边计算的机制，称为生成器（Generator）——>节省内存，可用while或者def+yield。
 #https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/00138681965108490cb4c13182e472f8d87830f13be6e88000
-
+#链表详解：http://blog.csdn.net/redRnt/article/details/77542810
 
 
 
@@ -10,6 +10,11 @@ class ListNode:
                           #The self parameter refers to the instance of the object (like this in C++).
         self.val = x      #data head node has no data?
         self.next = None  #pointer to next node the end node must be none so...
+        
+        #递归定义。每生成一个新的节点，就必然有一个指向下一个节点的指针生成。
+        
+        
+        
     def myPrint(self):
         print(self.val)
         if self.next:
