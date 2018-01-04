@@ -44,7 +44,7 @@ class Solution:
             print("root={0}".format(root))
             carry = value // 10 #equates to int(value/10)
             root = root.next
-        return result.next #返回dummy node
+        return result.next #dummy node.next 返回更新后的链表
 ########################################################################################################
 
 class ListNode(object):
