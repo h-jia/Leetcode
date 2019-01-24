@@ -1,2 +1,2 @@
 # Leetcode
-Codes
+Personal Codes Practices
